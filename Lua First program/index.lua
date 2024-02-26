@@ -1,5 +1,12 @@
 local function Pet(props)
-    local name = props.name or "not informed"
+    local name,
+    idade,
+    cidade,
+    status =
+        props.name or "not informed",
+        props.idade,
+        props.cidade,
+        props.status
     return {
         name = name,
         status = props.status
